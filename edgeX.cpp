@@ -115,7 +115,7 @@ int sent = 0;
 	 * Loop over the assets sends a POST request for all the readinfs we have for each
 	 * asset.
 	 *
-	 * TODO Need to underatnad the tiemstamp usage inthe asset information
+	 * TODO Need to understand the tiemstamp usage in the asset information
 	 */
 	for (auto itr = assets.cbegin(); itr != assets.cend(); ++itr)
 	{
