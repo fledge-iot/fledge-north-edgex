@@ -112,10 +112,10 @@ int sent = 0;
 		}
 	}
 	/**
-	 * Loop over the assets sends a POST request for all the readinfs we have for each
+	 * Loop over the assets sends a POST request for all the readings we have for each
 	 * asset.
 	 *
-	 * TODO Need to understand the tiemstamp usage in the asset information
+	 * TODO Need to understand the timestamp usage in the asset information
 	 */
 	for (auto itr = assets.cbegin(); itr != assets.cend(); ++itr)
 	{
